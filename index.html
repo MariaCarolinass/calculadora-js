@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<meta charset="utf-8">
+		<title>Calculadora em javascript</title>
+		<script src="calculadora-js/calculadora.js"></script>
+	</head>
+	<body>
+		<form>
+			<h1>Calculadora</h1>
+			<div>
+				<p><label>Primeiro número: </label></p>
+				<input type="text" placeholder="Digite um número" size="40" id="numero1"/><br>
+				<p><label>Segundo número: </label></p>
+        		<input type="text" placeholder="Digite um número" size="40" id="numero2"/>
+        		<br><br>
+        		<p>Escolha uma operação abaixo para calcular:</p>
+        		<button type="button" name="button" onclick="somar();">+</button>
+        		<button type="button" name="button" onclick="diminuir();">-</button>
+        		<button type="button" name="button" onclick="multiplicar();">*</button>
+        		<button type="button" name="button" onclick="dividir();">/</button><br><br><br>
+        		<span id="resultado">Resultado: </span><br><br>
+       			<button type="button" name="button" onclick="limpar();">Limpar</button>
+			</div>
+		</form>
+	</body>
+</html>
