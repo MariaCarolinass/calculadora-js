@@ -9,18 +9,19 @@
 		<form>
 			<h1>Calculadora</h1>
 			<div>
-				<p><label>Primeiro número: </label></p>
-				<input type="text" placeholder="Digite um número" size="40" id="numero1"/><br>
-				<p><label>Segundo número: </label></p>
-        		<input type="text" placeholder="Digite um número" size="40" id="numero2"/>
+				<p><label for="num1">Primeiro número: </label></p>
+				<input type="text" placeholder="Digite um número" size="40" id="num1"/><br>
+				<p><label for="num2">Segundo número: </label></p>
+        		<input type="text" placeholder="Digite um número" size="40" id="num2"/>
         		<br><br>
         		<p>Escolha uma operação abaixo para calcular:</p>
-        		<button type="button" name="button" onclick="somar();">+</button>
-        		<button type="button" name="button" onclick="diminuir();">-</button>
-        		<button type="button" name="button" onclick="multiplicar();">*</button>
-        		<button type="button" name="button" onclick="dividir();">/</button><br><br><br>
-        		<span id="resultado">Resultado: </span><br><br>
-       			<button type="button" name="button" onclick="limpar();">Limpar</button>
+        		<button type="button" onclick="Somar();">+</button>
+        		<button type="button" onclick="Diminuir();">-</button>
+        		<button type="button" onclick="Multiplicar();">*</button>
+        		<button type="button" onclick="Dividir();">/</button><br><br><br>
+        		<label>Resultado: </label>
+        		<span id="resultado"></span><br><br>
+       			<button type="button" name="button" onclick="Limpar();">Limpar</button>
 			</div>
 		</form>
 	</body>
