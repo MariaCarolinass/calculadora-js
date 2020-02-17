@@ -2,7 +2,7 @@ function Somar() {
 	var num1 = document.getElementById("num1").value;
 	var num2 = document.getElementById("num2").value;
 	var somar = parseInt(num1) + parseInt(num2);
-	console.log(document.getElementById("resultado").innerHTML) = somar;
+	document.getElementById("resultado").innerHTML = somar;
 }
 
 function Diminuir() {
@@ -27,6 +27,7 @@ function Dividir() {
 }
 
 function Limpar() {
-  var = document.getElementById("");
-
+	document.getElementById("num1").value = "";
+	document.getElementById("num2").value = "";
+	document.getElementById("resultado").innerHTML = "";
 }
